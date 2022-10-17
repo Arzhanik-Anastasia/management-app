@@ -1,0 +1,120 @@
+{
+  "header": {
+    "login": "Вход",
+    "signup": "Регистрация",
+    "logout": "Выход",
+    "Go to main Page": "На главную"
+  },
+  "signInPage" : {
+    "Log In": "Вход",
+    "Login": "Логин",
+    "Password": "Пароль",
+    "New User? ": "Новый пользователь? ",
+    "Sign Up": "Регистрация"
+  },
+  "signUpPage" : {
+    "Create account": "Регистрация",
+    "Login": "Логин",
+    "Name": "Имя",
+    "Password": "Пароль",
+    "Confirm Password": "Подтвердите пароль",
+    "Email": "Почта",
+    "Already have an account?": "Уже есть аккаунт?",
+    "Log In": "Войти",
+    "Register": "Регистрация"
+  },
+  "updateUserPage" : {
+    "Update User Info": "Редактировать профиль",
+    "Login": "Логин",
+    "Name": "Имя",
+    "Password": "Пароль",
+    "Delete User": "Удалить",
+    "Update info": "Обновить",
+    "Required": "Заполните поле",
+    "Do you really want to delete a user?": "Вы действительно хотите удалить пользователя?",
+    "Ok": "Да"
+  },
+  "welcomePage" : {
+    "Productivity Planner": "Менеджер задач",
+    "Set goals and actually conquer them": "Ставьте цели и достигайте их",
+    "description": "Ключ к достижению ваших целей — разбить их на небольшие действия. Хотите зарабатывать 5 тысяч долларов в месяц… какие продукты или услуги вы собираетесь предлагать? Хотите 1000 подписчиков в Instagram… как вы собираетесь с ними связаться? Начните со своих годовых целей, а затем разбейте их на кварталы, месяцы, недели и дни, используя контрольные списки, которые помогут вам не сбиться с пути.",
+    "About us": "О команде",
+    "Anton Tananka": "Антон Тананко",
+    "Team-lead": "Тим-лид",
+    "More in CV": "Еще",
+    "Diana Byben": "Диана Бубен",
+    "Frontend Developer": "Фронт-энд разработчик",
+    "Anastasia Arzhanik": "Анастасия Аржаник",
+    "About Project Title": "О проекте",
+    "About Project":"Данный проект был сделан в рамках обучения на курсе React от сообщества The Rolling Scopes.",
+    "RSS": {
+      "Online course Development with React": "Онлайн-курс «Разработка на React»",
+      "Free course from The Rolling Scopes community": "Бесплатный онлайн курс от RS School",
+      "Who is this course for?": "Для кого этот курс?",
+      "The course is intended": "Курс предназначен для студентов RS School набора 2021Q3, которые прошли RS School stage #2, а также для новых студентов, которые имеют знания и практический опыт использования следующих технологий и инструментов",
+      "Free education": "Бесплатное обучение",
+      "Principle":"В RS School работает принцип 'Pay it forward'. ",
+      "We share our knowledge":"Мы бесплатно делимся с учащимися своими знаниями сейчас, надеясь, что в будущем они вернутся к нам в качестве менторов и точно так же передадут свои знания следующему поколению студентов.",
+      "Training term":"Срок обучения: 2 месяца",
+      "Webinars are held":"Вебинары проходят 2 раза в неделю в вечернее время. Запись вебинаров будет доступна на youtube школы.",
+      "For everyone":"Для всех желающих",
+      "Everyone":"В RS School может учиться каждый, независимо от возраста, профессиональной занятости и места жительства. Однако для успешного обучения необходимо иметь базовые знания.",
+      "Certificate":"Сертификат",
+      "Certificate of successful":"Сертификат об успешном прохождении курсов выдается всем прошедшим два этапа обучения.",
+      "Materials":"Материалы",
+      "All materials":"Все материалы будут размещаться в открытом доступе на YouTube и GitHub.",
+      "Chat":"Чат",
+      "Open chat":"Открытый чат для абитуриентов и учащихся:"
+    }
+  },
+  "mainPage" : {
+    "Good nigth": "Доброй ночи",
+    "Good morning": "Доброе утро",
+    "Good afternoon": "Добрый день",
+    "Good evening": "Добрый вечер",
+    "Create board": "Создать доску",
+    "No boards yet,": "Еще нет досок,",
+    "create a new one": "создай новую",
+    "Create a board": "Создать доску",
+    "Create": "Создать",
+    "Task placeholder": "Поиск задач",
+    "Task title": "Название",
+    "Task description": "Описание",
+    "Task search": "Задач не найдено"
+  },
+  "modal" : {
+    "Back": "Назад",
+    "Title": "Заголовок:",
+    "Description": "Описание:",
+    "Too short title": "Необходимо более двух символов"
+  },
+  "board" : {
+    "Change a board": "Изменить доску",
+    "Update": "Изменить",
+    "Do you really want to delete a board?": "Вы действительно хотите удалить доску?",
+    "Ok": "Да"
+  },
+  "boardPage" : {
+    "Add Column": "Добавить колонку",
+    "Create a new column": "Создать колонку",
+    "Create": "Создать"
+  },
+  "column" : {
+    "Add Task": "Добавить таск",
+    "Create a new task": "Создать новый таск",
+    "Create": "Создать",
+    "Do you really want to delete a column?": "Вы действительно хотите удалить колонку?",
+    "Ok": "Да"
+  },
+  "BigFormModal" : {
+    "Title": "Заголовок:",
+    "Description": "Описание:",
+    "Too short title": "Необходимо более двух символов",
+    "Back": "Назад"
+  },
+  "Task" : {
+    "Do you really want to delete this task?": "Вы действительно хотите удалить этот таск?",
+    "Ok": "Да",
+    "Change a task": "Изменить задачу"
+  }
+}

@@ -1,0 +1,32 @@
+.button-above {
+  width: 40px;
+  height: 40px;
+  bottom: 10%;
+  right: 1%;
+  position: fixed;
+  display: none;
+  background-image: url('../../../public/assets/svg/scroll.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 10;
+  cursor: pointer;
+  filter: brightness(0) saturate(100%) invert(0) sepia(0) saturate(549%) hue-rotate(356deg)
+    brightness(100%) contrast(92%) drop-shadow(-3px 3px 3px rgba(0, 0, 0, 0.7));
+  user-select: none;
+  transition: all 0.3s ease-in-out;
+  opacity: 0.2;
+}
+
+.button-above:hover {
+  transform: scale(0.9);
+  opacity: 0.5;
+}
+
+.button-above:active {
+  transform: scale(0.8);
+}
+
+.button-above.but-active {
+  display: block;
+}

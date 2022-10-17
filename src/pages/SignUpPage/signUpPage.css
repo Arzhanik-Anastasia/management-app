@@ -1,0 +1,62 @@
+.container-form h2 {
+  color: #003f95;
+}
+.container-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 50px auto;
+  text-align: left;
+  min-height: calc(100vh - 220px);
+}
+
+.container-img-register{
+  width: 50%;
+  height: 639px;
+  background-image: url('./../../../public/assets/jpg/register.jpg');
+  border-radius: 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+@media (max-width: 1000px) {
+  .container-img-register {
+    display: none;
+  }
+}
+.form {
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.form input,
+.form select {
+  display: block;
+}
+
+.namesUser {
+  display: flex;
+  justify-content: space-between;
+}
+.namesUser input {
+  width: 80%;
+}
+.input-checkbox {
+  width: 20%;
+  margin: 0;
+}
+.checkbox-label {
+  display: flex;
+  margin-bottom: 20px;
+}
+.redirect {
+  font-family: monospace;
+  margin: 20px 0;
+  font-size: 16px;
+}
+.redirect-link {
+  cursor: pointer;
+  color: rgba(65, 132, 234, 0.75);
+}

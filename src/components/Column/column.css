@@ -1,0 +1,67 @@
+.column {
+  list-style: none;
+  border-radius: 5px;
+  background: #a7d1f8;
+  color: black;
+  padding: 10px;
+  min-width: 250px;
+  height: 100%;
+  position: relative;
+  margin: 20px;
+  cursor: grab;
+}
+.column h3 {
+  padding: 10px 0;
+  cursor: pointer;
+  margin: auto;
+  height: 100%;
+  max-width: 180px;
+  overflow-wrap: break-word;
+}
+
+.tasks {
+  padding: 0;
+  overflow: auto;
+  overflow-y: auto;
+  max-height: 45vh;
+}
+
+@media (max-width: 570px) {
+  .tasks {
+    max-height: 35vh;
+  }
+}
+
+.delete-column {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-image: url('./../../../public/assets/jpg/trash.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  right: 10px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.tasks::-webkit-scrollbar-thumb {
+  background-image: -webkit-gradient(linear-gradient(to right, #04befe, #3f86ed, #25aae1, #4481eb));
+  border-radius: 15px;
+  max-width: 15px;
+  background: #25aae1;
+}
+.tasks::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+}
+.tasks::-webkit-scrollbar-track {
+  background: rgb(12, 12, 12);
+  border-radius: 10px;
+}
+.tasks::-webkit-scrollbar-thumb:hover {
+  background: rgb(230, 244, 245);
+}
+.column__header {
+  display: flex;
+  justify-content: space-between;
+}

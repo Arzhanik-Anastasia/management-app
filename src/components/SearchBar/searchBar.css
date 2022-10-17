@@ -1,0 +1,108 @@
+.search-panel {
+    margin: 10px auto;
+    padding: 10px;
+}
+.search-block {
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+.search-block button {
+    margin-left: 20px;
+}
+.input-search {
+    outline: none;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    background: linear-gradient(0deg, #f6f6f6, #f6f6f6), #fefefe;
+    border: 1px solid #e2e2e2;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 9px 9px 10px 35px;
+    outline: none;
+}
+.list-search {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    margin: 20px auto;
+    padding: 35px 10px 10px;
+    background: linear-gradient(0deg, #f6f6f6, #f6f6f6), #fefefe;
+    border: 1px solid #e2e2e2;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+.list-search p {
+    color: black;
+}
+.list div, .list p {
+    font-size: 12px;
+}
+.list p {
+   font-size: 14px; 
+   color: rgb(250, 109, 109)
+}
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(4, 1, 148);
+    border: 1px solid gray;
+    padding: 5px 0;
+    margin-top: 10px;
+}
+
+.list-content a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 3px;
+    color: black;
+}
+.link {
+    display: flex;
+    justify-content: space-between;
+}
+.close {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    width: 25px;
+    height: 25px;
+    opacity: 0.3;
+    cursor: pointer;
+    }
+.close:hover {
+    opacity: 1;
+    }
+.close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+    }
+.close:before {
+    transform: rotate(45deg);
+    }
+.close:after {
+    transform: rotate(-45deg);
+}
+
+@media (max-width: 450px) {
+    .search-block {
+        flex-direction: column;
+    }
+    .search-block button {
+        margin: 10px auto;
+    }
+    .header-list {
+        font-size: 18px;
+    }
+}

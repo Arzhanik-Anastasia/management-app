@@ -1,0 +1,28 @@
+.task_title {
+  background: #011936;
+  color: #f4fffd;
+  border-radius: 5px;
+  cursor: grab;
+  margin: 15px;
+  list-style: none;
+  padding: 15px;
+  position: relative;
+  transition: 1;
+  }
+.task_title-text {
+  max-width: 135px;
+  overflow-wrap: break-word;
+}
+
+.delete-task {
+  background-image: url('./../../../public/assets/svg/delete.svg');
+  fill: white;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+}

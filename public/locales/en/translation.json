@@ -1,0 +1,120 @@
+{
+  "header": {
+    "login": "Log in",
+    "signup": "Sign up",
+    "logout": "Log out",
+    "Go to main Page": "Go to main Page"
+  },
+  "signInPage" : {
+    "Log In": "Log in",
+    "Login": "Login",
+    "Password": "Password",
+    "New User? ": "New User? ",
+    "Sign Up": "Sign Up"
+  },
+  "signUpPage" : {
+    "Create account": "Create account",
+    "Login": "Login",
+    "Name": "Name",
+    "Password": "Password",
+    "Confirm Password": "Confirm Password",
+    "Email": "Email",
+    "Already have an account?": "Already have an account?",
+    "Log In": "Log in",
+    "Register": "Register"
+  },
+  "updateUserPage" : {
+    "Update User Info": "Update User Info",
+    "Login": "Login",
+    "Name": "Name",
+    "Password": "Password",
+    "Delete User": "Delete User",
+    "Update info": "Update info",
+    "Required": "Required",
+    "Do you really want to delete a user?": "Do you really want to delete a user?",
+    "Ok": "Ok"
+  },
+  "welcomePage" : {
+    "Productivity Planner": "Productivity Planner",
+    "Set goals and actually conquer them": "Set goals and actually conquer them",
+    "description": "The key to achieving your goals is to break them down into bite-sized action steps. Want to make $5k/month… what products or services are you going to offer? Want 1000 Instagram followers… how are you going to connect with them? Start with your yearly goals and then break them down into quarters, months, weeks, and days, all with checklists to keep you on track.",
+    "About us": "About us",
+    "Anton Tananka": "Anton Tananka",
+    "Team-lead": "Team-lead",
+    "More in CV": "More in CV",
+    "Diana Byben": "Diana Byben",
+    "Frontend Developer": "Frontend Developer",
+    "Anastasia Arzhanik": "Anastasia Arzhanik",
+    "About Project Title": "About Project",
+    "About Project":"This project was made as part of the React course from the community The Rolling Scopes.",
+    "RSS": {
+      "Online course Development with React": "Online course Development with React",
+      "Free course from The Rolling Scopes community": "Free course from The Rolling Scopes community.",
+      "Who is this course for?": "Who is this course for?",
+      "The course is intended": "The course is intended for RS School 2021Q3 students who have passed RS School stage #2, as well as for new students who have knowledge and practical experience in using the following technologies and tools",
+      "Free education": "Free education",
+      "Principle": "The principle of 'Pay it forward' works at RS School. ",
+      "We share our knowledge":"We share our knowledge with students for free now, hoping that in the future they will return to us as mentors and pass on their knowledge to the next generation of students in the same way.",
+      "Training term":"Training term: 2 months",
+      "Webinars are held":"Webinars are held 2 times a week in the evening. A recording of the webinars will be available on the school's YouTube channel.",
+      "For everyone":"For everyone",
+      "Everyone":"Everyone can study at RS School, regardless of age, professional employment and place of residence. However, for successful learning, you need to have basic knowledge.",
+      "Certificate":"Certificate",
+      "Certificate of successful":"A certificate of successful completion of the course is issued to all who have passed the two stages of training.",
+      "Materials":"Materials",
+      "All materials":"All materials will be hosted in the public domain on",
+      "Chat":"Chat",
+      "Open chat":"Open chat for applicants and students:"
+    }
+  },
+  "mainPage" : {
+    "Good nigth": "Good nigth",
+    "Good morning": "Good morning",
+    "Good afternoon": "Good afternoon",
+    "Good evening": "Good evening",
+    "Create board": "Create board",
+    "No boards yet,": "No boards yet,",
+    "create a new one": "create a new one",
+    "Create a board": "Create a board",
+    "Create": "Create",
+    "Task placeholder": "Search task",
+    "Task title": "Title",
+    "Task description": "Description",
+    "Task search": "Tasks not found"
+  },
+  "modal" : {
+    "Back": "Back",
+    "Title": "Title:",
+    "Description": "Description:",
+    "Too short title": "Too short title"
+  },
+  "board" : {
+    "Change a board": "Change a board",
+    "Update": "Update",
+    "Do you really want to delete a board?": "Do you really want to delete a board?",
+    "Ok": "Ok"
+  },
+  "boardPage" : {
+    "Add Column": "Add Column",
+    "Create a new column": "Create a new column",
+    "Create": "Create"
+  },
+  "column" : {
+    "Add Task": "Add Task",
+    "Create a new task": "Create a new task",
+    "Create": "Create",
+    "Do you really want to delete a column?": "Do you really want to delete a column?",
+    "Ok": "Ok"
+  },
+  "BigFormModal" : {
+    "Title": "Title:",
+    "Description": "Description:",
+    "Too short title": "Too short title",
+    "Back": "Back"
+  },
+  "Task" : {
+    "Do you really want to delete this task?": "Do you really want to delete this task?",
+    "Ok": "Ok",
+    "Change a task": "Change a task"
+  }
+}

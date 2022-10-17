@@ -1,0 +1,225 @@
+.welcome__page-bg {
+    background-image: url('./../../../public/assets/jpg/task.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -50px;
+    background-position-x: -300px;
+    background-attachment: fixed;
+}
+.welcome__page {
+    margin: 0 auto;
+    min-height: calc(100vh - 120px);
+    max-width: 70%;
+}
+.welcome__title, .welcome__about-project-title {
+    font-size: 72px;
+    font-family: 'Shadows Into Light Two', handwriting;
+    letter-spacing: 10px;
+}
+.welcome__subtitle {
+    font-size: 60px;
+    font-family: 'Shadows Into Light Two', handwriting;
+    margin-top: 40px;
+}
+.welcome__desc {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 50px;
+    font-size:30px;
+}
+.welcome__about-project-title {
+    margin: 50px;
+}
+.welcome__about-project {
+    font-size: 42px;  
+    font-weight: 600;
+}
+@media (max-width: 900px){
+    .welcome__about-project {
+        font-size: 32px;    
+    }
+}
+.welcome__rs-info {
+    padding: 40px 0;
+}
+.welcome__rs-info-title {
+    font-size: 50px;
+}
+@media (max-width: 768px) {
+  .welcome__rs-info-title {
+    font-size: 36px;
+}   
+}
+.welcome__rs-info-subtitle {
+    font-size: 20px;
+    padding: 20px 0;
+}
+.welcome__rs-info-btn {
+    text-decoration: none;
+    padding-top: 12px;
+    margin-bottom: 30px;
+}
+.welcome__rs-info h4 {
+    font-size: 36px; 
+    margin: 10px 0; 
+}
+.rss-bold {
+    font-weight: 600;
+}
+.rss-event {
+    margin-bottom: 20px;
+    font-size: 20px; 
+}
+.rss-advantages {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.rss-advantage__card {
+    display: flex;
+    max-width: 40%;
+    padding: 10px 10px 20px 10px;
+    box-shadow: inset 2px 2px 2px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    background-color: #f1f8fc;
+    margin-bottom: 20px;
+}
+@media (max-width: 900px) {
+    .rss-advantages {  
+        flex-direction: column;
+        justify-content: center;
+    } 
+    .rss-advantage__card {
+        max-width: 100%;
+    }
+}
+.rss-advantage__card-title {
+    font-size: 24px; 
+    margin-bottom: 10px;
+}
+
+.rss-icon {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin: auto;
+}
+.rss-info__block {
+    max-width: 70%;
+}
+.rss-info__block p {
+    overflow-wrap: break-word;
+}
+@media  (max-width: 500px){
+    .rss-info__block p {
+        font-size: 14px;
+    }
+}
+.rss-free {
+    background-image: url('../../../public/assets/png/money.png');
+}
+.rss-time {
+    background-image: url('../../../public/assets/png/alarm-clock.png');
+}
+.rss-everyone {
+    background-image: url('../../../public/assets/png/teamwork.png');
+}
+
+.rss-materials {
+    background-image: url('../../../public/assets/png/folder.png');
+}
+.rss-chat {
+    background-image: url('../../../public/assets/png/mouse.png');
+}
+.rss-certificate {
+    background-image: url('../../../public/assets/png/documents.png');
+}
+
+.welcome__about h6 {
+    margin-top: 20px;
+}
+.cards__teams {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card__team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 15px auto;
+    padding: 30px;
+    width: 30%;
+    background-color: rgb(249, 252, 252);
+    border-radius: 10px;
+    box-shadow: 6px 6px 16px rgb(83 86 90 / 50%);
+}
+.card__team-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.team__info {
+    display: flex;
+    flex-direction: column;
+}
+.team__info h6 {
+    font-size: 20px;
+    font-family: Forum;
+    margin-bottom: 10px;
+}
+.team__info p {
+    font-size: 18px;  
+}
+.team__info a {
+    width: 110px;
+    padding-top: 5px;
+    height: 35px;
+    font-size: 18px;
+    color: #fff;
+    margin: auto;
+    text-align:center;
+    border-radius: 5px;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #001d3f, #1447a0, #010044, #0e53bb);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+    text-decoration: none;
+    margin-top: 10px;
+    background-size: 300% 100%;
+} 
+.team__info a:hover {
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
+@media (max-width: 768px) {
+    .welcome__title, .welcome__about-project-title {
+        font-size: 50px;  
+    } 
+    .welcome__subtitle {
+        font-size: 36px;   
+    }
+    .welcome__desc {
+        font-size: 24px;
+    }
+    .card__team {
+        width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    .welcome__title, .welcome__about-project-title {
+        font-size: 40px;  
+    } 
+    .welcome__subtitle {
+        font-size: 24px;   
+    }
+    .welcome__desc {
+        font-size: 16px;
+    }
+}

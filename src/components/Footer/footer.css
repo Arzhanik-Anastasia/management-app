@@ -1,0 +1,57 @@
+.footer {
+  background-color: rgb(230, 244, 245);
+  height: 60px;
+}
+.anastasia-link,
+.diana-link,
+.anton-link {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.anastasia-link {
+  background-image: url('../../../public/assets/jpg/anastasia-png.png');
+}
+.diana-link {
+  background-image: url('../../../public/assets/jpg/diana-png.png');
+}
+.anton-link {
+  background-image: url('../../../public/assets/jpg/anton-png.png');
+}
+
+.footer__inner{
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5 0 5px 0;
+  margin: 0 auto;
+  max-width: 1600px;
+  padding-top: 15px;
+}
+.footer-team {
+  width: 150px;
+  height: 30px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+.footer-logo {
+  display: block;
+  width: 90px;
+  height: 30px;
+  background-size: 90px 30px;
+  background-image: url('../../../public/assets/svg/rs_school.svg');
+  background-repeat: no-repeat;
+  margin-left: 25px;
+}
+.year {
+  font-size: 22px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0 10px 0 10px;
+}

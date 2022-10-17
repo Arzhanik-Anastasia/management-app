@@ -1,0 +1,27 @@
+.container-form input {
+  color: #2c2d2e;
+  width: 90%;
+  height: 30px;
+  margin-top: 10px;
+  padding: 0 12px;
+  font-size: 15px;
+  border:none;
+  border-bottom:1px solid #3c8cd6;
+}
+
+.container-form input:focus { 
+  outline:none; 
+}
+
+.container-form label {
+  padding-bottom:30px;
+}
+.container-form label p {
+  margin: 0;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color:#4d6a8d;
+} 
+
